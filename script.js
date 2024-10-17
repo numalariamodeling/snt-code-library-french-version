@@ -33,7 +33,7 @@ function loadContent(page) {
                         
                         <button class="text-button">Sur cette page:</button>
                         <button class="text-button" onclick="scrollToSection('ÉtapeByÉtape')">Étape par étape</button>
-                        <button class="text-button" onclick="scrollToSection('ÉtapeByÉtape')">Exemple de sortie</button>
+                        <button class="text-button" onclick="scrollToSection('sampleR')">Exemple de sortie</button>
                         <button class="text-button" onclick="scrollToSection('fullCode')">Code complet</button>
                        
                     </div>
@@ -44,10 +44,10 @@ function loadContent(page) {
                     <p><em>Cette section explique le flux de travail pour importer et gérer des shapefiles en utilisant R.</em></p>
 
 
-                    <div class="rect-buttons">
-                        <button class="text-button" onclick="window.location.href='https://numalariamodeling.github.io/snt-library-english-version/#shapefiles';"Vue R En</button>
-                        <button class="text-button" onclick="window.location.href='https://numalariamodeling.github.io/snt-python-english-version/#shapefiles';"Vue py En</button>
-                        <button class="text-button" onclick="window.location.href='https://numalariamodeling.github.io/snt-python-french-version/#shapefiles';"Vue py FR</button>
+                    <div class="round-buttons">
+                        <button class="rect-button" onclick="window.location.href='https://numalariamodeling.github.io/snt-library-english-version/#shapefiles';"Vue R En</button>
+                        <button class="rect-button" onclick="window.location.href='https://numalariamodeling.github.io/snt-python-english-version/#shapefiles';"Vue py En</button>
+                        <button class="rect-button" onclick="window.location.href='https://numalariamodeling.github.io/snt-python-french-version/#shapefiles';"Vue py FR</button>
 
                     </div>
                     
