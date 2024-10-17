@@ -43,6 +43,13 @@ function loadContent(page) {
                     <h3 style="color: #47B577;">Approche étape par étape</h3>
                     <p><em>Cette section explique le flux de travail pour importer et gérer des shapefiles en utilisant R.</em></p>
 
+
+                    <div class="rect-buttons">
+                        <button class="text-button" onclick="window.location.href='https://numalariamodeling.github.io/snt-library-english-version/#shapefiles';"Vue R En</button>
+                        <button class="text-button" onclick="window.location.href='https://numalariamodeling.github.io/snt-python-english-version/#shapefiles';"Vue py En</button>
+                        <button class="text-button" onclick="window.location.href='https://numalariamodeling.github.io/snt-python-french-version/#shapefiles';"Vue py FR</button>
+
+                    </div>
                     
 
                     <h3>Étape 1 : Installer les bibliothèques nécessaires</h3>
