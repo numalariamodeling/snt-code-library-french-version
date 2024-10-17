@@ -30,14 +30,20 @@ function loadContent(page) {
 
         shapefiles: `
                     <div class="fixed-buttons">
+                        
+                        <button class="text-button">Sur cette page:</button>
                         <button class="text-button" onclick="scrollToSection('ÉtapeByÉtape')">Étape par étape</button>
+                        <button class="text-button" onclick="scrollToSection('ÉtapeByÉtape')">Exemple de sortie</button>
                         <button class="text-button" onclick="scrollToSection('fullCode')">Code complet</button>
+                       
                     </div>
 
         
-                    <h3>A. Assemblage et gestion des données > A.1 fichiers de forme</h3>
-                    <h3>Approche étape par étape</h3>
-                    <p>Cette section explique le flux de travail pour importer et gérer des shapefiles en utilisant R.</p>
+                    <h5>A. Assemblage et gestion des données/fichiers de forme</h5>
+                    <h3 style="color: #47B577;">Approche étape par étape</h3>
+                    <p><em>Cette section explique le flux de travail pour importer et gérer des shapefiles en utilisant R.</em></p>
+
+                    
 
                     <h3>Étape 1 : Installer les bibliothèques nécessaires</h3>
                     <p>Avant de commencer, assurez-vous d'avoir installé les packages R requis. Cela peut être fait en utilisant le code suivant :</p>
