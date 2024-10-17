@@ -40,7 +40,7 @@ function loadContent(page) {
 
         
                     <h5>A. Assemblage et gestion des données/fichiers de forme</h5>
-                    <h3 style="color: #47B577;">Approche étape par étape</h3>
+                    <h3 style="color: #47B5FF;">Approche étape par étape</h3>
                     <p><em>Cette section explique le flux de travail pour importer et gérer des shapefiles en utilisant R.</em></p>
 
 
@@ -51,8 +51,9 @@ function loadContent(page) {
 
                     </div>
                     
+                    <h4 id="stepByStep">Étape par étape</h4>
 
-                    <h3>Étape 1 : Installer les bibliothèques nécessaires</h3>
+                    <h5 style="color: #ADD8E6;">Étape 1 : Installer les bibliothèques nécessaires</h5>
                     <p>Avant de commencer, assurez-vous d'avoir installé les packages R requis. Cela peut être fait en utilisant le code suivant :</p>
                     <pre><code>
 # Installer les bibliothèques nécessaires
@@ -60,7 +61,8 @@ install.packages(c("sf", "ggplot2", "dplyr"))
                     </code><button class="copy-button" onclick="copyCode()">Copier le code</button> <!-- Le bouton de copie est positionné ici --></pre>
                     <p>Ce code installe le package <code>sf</code> pour manipuler des données spatiales, <code>ggplot2</code> pour la visualisation des données et <code>dplyr</code> pour la manipulation des données.</p>
 
-                    <h3>Étape 2 : Charger les bibliothèques nécessaires</h3>
+                     <h5 style="color: #ADD8E6;">Étape 2 : Charger les bibliothèques nécessaires</h5>
+                    
                     <p>Après avoir installé les bibliothèques, vous devez les charger dans votre environnement R :</p>
                     <pre><button class="copy-button" onclick="copyCode()">Copier le code</button> <!-- Le bouton de copie est positionné ici --><code>
 # Charger les bibliothèques nécessaires
@@ -70,7 +72,7 @@ library(ggplot2)
                     </code></pre>
                     <p>Cette étape rend les fonctions de ces bibliothèques disponibles pour utilisation dans votre script.</p>
 
-                    <h3>Étape 3 : Importer des Shapefiles</h3>
+                    <h5 style="color: #ADD8E6;">Étape 3 : Importer des Shapefiles</h5>
                     <p>Vous pouvez importer des shapefiles en utilisant la fonction <code>st_read</code> du package <code>sf</code>. Voici une fonction pour le faire :</p>
                     <pre><button class="copy-button" onclick="copyCode()">Copier le code</button> <!-- Le bouton de copie est positionné ici --><code>
 # Importer des Shapefiles
@@ -81,7 +83,7 @@ import_shapefile <- function(filepath) {
                     </code></pre>
                     <p>Cette fonction prend un chemin de fichier en entrée, lit le shapefile et le renvoie en tant qu'objet spatial.</p>
 
-                    <h3>Étape 4 : Renommer et faire correspondre les noms</h3>
+                    <h5 style="color: #ADD8E6;">Étape 4 : Renommer et faire correspondre les noms</h5>
                     <p>Parfois, les colonnes de votre shapefile doivent être renommées pour plus de clarté ou pour correspondre à d'autres ensembles de données. Vous pouvez le faire comme suit :</p>
                     <pre><button class="copy-button" onclick="copyCode()">Copier le code</button> <!-- Le bouton de copie est positionné ici --><code>
 # Renommer et faire correspondre les noms
@@ -92,7 +94,7 @@ rename_shapefile_columns <- function(shapefile, new_names) {
                     </code><button class="copy-button" onclick="copyCode()">Copier le code</button> <!-- Le bouton de copie est positionné ici --></pre>
                     <p>Cette fonction prend un shapefile et un vecteur de nouveaux noms, renommant les colonnes en conséquence.</p>
 
-                    <h3>Étape 5 : Lier les Shapefiles aux Échelles Pertinentes</h3>
+                    <h5 style="color: #ADD8E6;">Étape 5 : Lier les Shapefiles aux Échelles Pertinentes</h5>
                     <p>Liez votre shapefile à des échelles ou des métadonnées pertinentes en le fusionnant avec un autre cadre de données :</p>
                     <pre><button class="copy-button" onclick="copyCode()">Copier le code</button> <!-- Le bouton de copie est positionné ici --><code>
 # Lier les Shapefiles aux Échelles Pertinentes
@@ -104,7 +106,7 @@ link_shapefiles_to_scales <- function(shapefile, scales_df, link_col) {
                     </code></pre>
                     <p>Cette fonction effectue une jointure à gauche entre le shapefile et un cadre de données contenant des informations sur les échelles, en fonction d'une colonne de liaison spécifiée.</p>
 
-                    <h3>Étape 6 : Visualiser les Shapefiles et Créer des Cartes de Base</h3>
+                    <h5 style="color: #ADD8E6;">Étape 6 : Visualiser les Shapefiles et Créer des Cartes de Base</h5>
                     <p>Enfin, vous pouvez visualiser le shapefile en utilisant <code>ggplot2</code>. Voici une fonction pour cela :</p>
                     <pre><button class="copy-button" onclick="copyCode()">Copier le code</button> <!-- Le bouton de copie est positionné ici --><code>
 # Visualiser les Shapefiles et Créer des Cartes de Base
