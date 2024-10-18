@@ -32,7 +32,7 @@ function loadContent(page) {
                     <div class="fixed-buttons">
                         
                         <button class="text-button">Sur cette page:</button>
-                        <button class="text-button" onclick="scrollToSection('ÉtapeByÉtape')">Étape par étape</button>
+                        <button class="text-button" onclick="scrollToSection('stepByStep')">Étape par étape</button>
                         <button class="text-button" onclick="scrollToSection('sampleR')">Exemple de sortie</button>
                         <button class="text-button" onclick="scrollToSection('fullCode')">Code complet</button>
                        
@@ -119,7 +119,7 @@ visualize_shapefile <- function(shapefile) {
                     </code><button class="copy-button" onclick="copyCode()">Copier le code</button> <!-- Le bouton de copie est positionné ici --></pre>
                     <p>Cette fonction crée une simple visualisation cartographique en utilisant les données spatiales. Remplacez <code>some_variable</code> par le nom de la variable que vous souhaitez visualiser dans l'esthétique de remplissage.</p>
 
-                    <h3>Code complet</h3>
+                    <h3 id="fullCode">Code complet</h3>
                     <pre id="codeBlock">
                     <code>
 
@@ -162,6 +162,9 @@ visualize_shapefile <- function(shapefile) {
                     </code>
                 <button class="copy-button" onclick="copyCode()">Copier le code</button> <!-- Le bouton de copie est positionné ici -->
             </pre>
+
+            <h3 id="sampleR">Exemple de sortie</h3>
+            
            
         `,
 
