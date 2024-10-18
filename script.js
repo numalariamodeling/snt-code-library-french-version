@@ -39,7 +39,7 @@ function loadContent(page) {
                     </div>
 
         
-                    <h5>A. Assemblage et gestion des données/fichiers de forme</h5>
+                    <h5>Assemblage et gestion des données/fichiers de forme</h5>
                     <h3 style="color: #47B5FF;">Approche étape par étape</h3>
                     <p><em>Cette section explique le flux de travail pour importer et gérer des shapefiles en utilisant R.</em></p>
 
