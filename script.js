@@ -164,7 +164,7 @@ visualize_shapefile <- function(shapefile) {
             </pre>
 
             <h3 id="sampleR">Exemple de sortie</h3>
-            
+            <img src="https://raw.githubusercontent.com/numalariamodeling/snt-code-library-english-version/a204dc53be5209fc170acbfbb5db8900930a80fa/MAP_PYTHON.png" alt="Sample Results">;
            
         `,
 
