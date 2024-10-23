@@ -29,7 +29,8 @@ function loadContent(page) {
 
 
         shapefiles: `
-                    <div class="fixed-buttons">
+                   
+                    <div class="fixed-buttons id="fixedButtons">
                         
                         <button class="text-button">Sur cette page:</button>
                         <button class="text-button" data-section="stepByStep" onclick="scrollToSection('stepByStep')">Étape par étape</button>
